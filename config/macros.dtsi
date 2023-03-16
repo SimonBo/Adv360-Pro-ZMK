@@ -1,3 +1,15 @@
+macro_review: macro_review{
+compatible = "zmk,behavior-macro";
+label = "macro_review";
+#binding-cells = <0>;
+bindings = <&kp LC(B)>, <&kp LS(R)>, <&kp E>, <&kp A>, <&kp D>, <&kp Y>, <&kp SPACE>, <&kp F>, <&kp O>, <&kp R>, <&kp SPACE>, <&kp R>, <&kp E>, <&kp V>, <&kp I>, <&kp E>, <&kp W>, <&kp LC(B)>;
+};
+macro_risk_analysis: macro_risk_analysis{
+compatible = "zmk,behavior-macro";
+label = "macro_risk_analysis";
+#binding-cells = <0>;
+bindings = <&kp LC(B)>, <&kp LS(R)>, <&kp I>, <&kp S>, <&kp K>, <&kp SPACE>, <&kp LS(A)>, <&kp N>, <&kp A>, <&kp L>, <&kp Y>, <&kp S>, <&kp I>, <&kp S>, <&kp COLON>, <&kp LC(B)>, <&kp SPACE>, <&kp LS(N)>, <&kp O>, <&kp SPACE>, <&kp R>, <&kp I>, <&kp S>, <&kp K>, <&kp SPACE>, <&kp I>, <&kp D>, <&kp E>, <&kp N>, <&kp T>, <&kp I>, <&kp F>, <&kp I>, <&kp E>, <&kp D>, <&kp DOT>;
+};
 macro_hmm: macro_hmm{
 compatible = "zmk,behavior-macro";
 label = "macro_hmm";
