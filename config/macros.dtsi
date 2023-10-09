@@ -2,7 +2,7 @@ macro_warpd_grid: macro_warpd_grid{
 compatible = "zmk,behavior-macro";
 label = "macro_warpd_grid";
 #binding-cells = <0>;
-bindings = <&kp LEFT_META>, <&kp LEFT_ALT>, <&kp X>;
+bindings = <&sk LEFT_META>, <&sk LEFT_ALT>, <&kp X>;
 };
 macro_review: macro_review{
 compatible = "zmk,behavior-macro";
